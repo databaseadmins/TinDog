@@ -1,9 +1,16 @@
-font-family: 'Montserrat', sans-serif;
-font-family: 'Ubuntu', sans-serif;
+
 
 
 /* color for the title class */
 #title {
     background-color: #ff4c68 ;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
+h1{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
