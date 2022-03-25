@@ -71,3 +71,8 @@ img {
     width: 60%;
     transform: rotate(15deg);
 }
+
+/* Features */
+#features {
+    padding: 7% 15%;
+}
