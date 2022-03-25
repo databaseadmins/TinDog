@@ -72,5 +72,7 @@ img {
     transform: rotate(15deg);
 }
 
-
-/*  Features */
+/* Features */
+#features {
+    padding: 7% 15%;
+}
