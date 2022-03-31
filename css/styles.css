@@ -5,8 +5,8 @@
 #title {
     background-color: #ff4c68 ;
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .container-fluid{
@@ -17,7 +17,7 @@
 .navbar {
   padding: 0 0 4.5rem;   
 }
-
+ 
 .nav-item {
     padding: 0 18px;
     font-family: 'Ubuntu', sans-serif;
@@ -25,10 +25,8 @@
 
 .nav-link{
     font-size: 1.2rem;
-    font-family: 'Ubuntu', sans-serif;
-   
-    
-}
+    font-weight: 300px;
+   }
 
 .navbar-brand {
     font-family: Ubuntu;
@@ -41,15 +39,44 @@ body{
     font-family: "Montserrat";
 }
 
+/* H1 and H3 */
 
 h1{
     font-family: 'Montserrat';
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
 }
 
+/*
+h3 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+*/
+
 img {
     -ms-transform: rotate(10deg); /* IE 9 */
-    transform: rotate(10deg);
+    
+}
+
+/* Download Buttons */
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+/* Title images */
+.title-image {
+    width: 60%;
+    transform: rotate(15deg);
+}
+
+/* Features */
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
 }
