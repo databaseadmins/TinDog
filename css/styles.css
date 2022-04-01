@@ -17,7 +17,7 @@
 .navbar {
   padding: 0 0 4.5rem;   
 }
- 
+
 .nav-item {
     padding: 0 18px;
     font-family: 'Ubuntu', sans-serif;
@@ -27,7 +27,7 @@
     font-size: 1.2rem;
     font-family: "Montserrat";
     font-weight: 300px;
-   }
+}
 
 .navbar-brand {
     font-family: Ubuntu;
@@ -49,12 +49,16 @@ h1{
     font-weight: 900;
 }
 
-/*
+
 h3 {
     font-family: 'Montserrat';
     font-weight: 800;
 }
-*/
+
+p {
+    color: #8f8f8f;
+}
+
 
 img {
     -ms-transform: rotate(10deg); /* IE 9 */
