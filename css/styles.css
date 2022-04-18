@@ -49,10 +49,14 @@ h1{
     font-weight: 900;
 }
 
-
+h2 {
+    font-family: 'Montserrat';
+    font-size: 3.0rem;
+    font-weight: 550;
+}
 h3 {
     font-family: 'Montserrat';
-    font-weight: 800;
+    font-weight: 600;
 }
 
 p {
@@ -94,4 +98,15 @@ img {
 
 .icon:hover {
     color:#ff4c68
+}
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff
+}
+
+.testimonials-image {
+    
 }
