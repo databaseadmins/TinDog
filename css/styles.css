@@ -15,9 +15,9 @@
 
 /* Navigation Bar */
 .navbar {
-  padding: 0 0 4.5rem;   
+    padding: 0 0 4.5rem;   
 }
- 
+
 .nav-item {
     padding: 0 18px;
     font-family: 'Ubuntu', sans-serif;
@@ -26,7 +26,7 @@
 .nav-link{
     font-size: 1.2rem;
     font-weight: 300px;
-   }
+}
 
 .navbar-brand {
     font-family: Ubuntu;
@@ -48,12 +48,20 @@ h1{
     font-weight: 900;
 }
 
-/*
+h2 {
+    font-family: 'Montserrat';
+    font-size: 3.0rem;
+    font-weight: 550;
+}
 h3 {
     font-family: 'Montserrat';
-    font-weight: 800;
+    font-weight: 600;
 }
-*/
+
+p {
+    color: #8f8f8f;
+}
+
 
 img {
     -ms-transform: rotate(10deg); /* IE 9 */
@@ -76,7 +84,42 @@ img {
     padding: 7% 15%;
 }
 
+/* Add comment*/
 .feature-box {
     text-align: center;
     padding: 5%;
+}
+
+.icon {
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color:#ff4c68
+}
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
