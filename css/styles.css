@@ -65,8 +65,7 @@ p {
 
 img {
     -ms-transform: rotate(10deg); /* IE 9 */
-    
-}
+    }
 
 /* Download Buttons */
 .download-button {
@@ -88,6 +87,10 @@ img {
 .feature-box {
     text-align: center;
     padding: 5%;
+}
+
+.carousel-item {
+    height: 500px;
 }
 
 .icon {
@@ -122,4 +125,13 @@ img {
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+
+.carousel-control-next {
+    opacity: .3;
+}
+
+.carousel-control-prev {
+    opacity: .3;
 }
